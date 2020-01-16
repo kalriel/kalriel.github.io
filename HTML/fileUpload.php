@@ -10,7 +10,7 @@ move_uploaded_file($SOURCE, $DEST);
         <title>Profile Image</title>
     </head>
     <body>
-        <h1><a href="http://localhost:8081/index.html">To index</a></h1>
+        <h1><a href="http://localhost:8080/index.html">To index</a></h1>
         <img src="<?=$_FILES['profile_img']['name']?>" alt="이미지가 없다옹"/>
     </body>
 </html>
