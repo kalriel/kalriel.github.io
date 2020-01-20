@@ -1,0 +1,35 @@
+<html>
+    <head>
+        <title>SignUp Test</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-sacle=1.0">
+    </head>
+    <body>
+        <h1><a href="index.html">HTML Practice-1</a></h1>
+        <h1>SignUp Test</h1>
+        <form action="http://localhost:8080/signup_test.php" autocomplete="on">
+            <table border="0">
+                <tr>
+                    <td>ID</td><td><input type="text" name="name_id" placeholder="ID를 입력 하세요" autofocus required pattern="\w{5,}"></td>
+                </tr>
+                <tr>
+                    <td>Password</td><td><input type="password" name="name_pass" placeholder="비밀번호를 입력하세요" required pattern="\w{8,}" autocomplete="off"></td>
+                </tr>
+                <tr>
+                    <td>Single</td><td><input type="radio" name="name_marry" value="v_single" checked> </td><td>Couple</td><td><input type="radio" name="name_marry" value="v_couple"></td>
+                </tr>
+                <tr>
+                    <td>E-Mail</td><td><input type="email" name="name_email" placeholder="E-Mail 을 입력하세요"></td>
+                </tr>
+                <tr>
+                    <td>Birth</td><td><input type="date" name="name_birth"></td>
+                </tr>
+                <tr>
+                    <td>Phone</td><td><input type="tel" name="name_tel" placeholder="전화번호를 입력하세요"></td>
+                </tr>
+            </table>
+            <a><input type="submit" value="회원가입" onclick="alert('회원가입 완료')"></a>
+        </form>
+
+    </body>
+</html>
